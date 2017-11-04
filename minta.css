@@ -1,0 +1,121 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    width: 20%;
+}
+
+li a {
+    display: block;
+    font-family: Poiret One, sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+li a:hover {
+    background-color: #b30000;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #78184A;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.headline {
+    background-color: black;
+    color: white;
+    font-family: Poiret One, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    padding: 13px;
+    margin-left: 380px;
+    margin-right: 380px;
+}
+
+p {
+    font-family: Open Sans Condensed, sans-serif;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.our-cakes {
+    position: relative;
+    width: 100%;
+    height: 360px;
+}
+
+.our-cakes-background {
+    opacity: 1;
+    transition: 1s ease;
+    backface-visibility: hidden;
+}
+
+.img-row {
+    float: left;
+    width: 25%;
+}
+
+.img-row img {
+    width: 100%;
+    height: 360px;
+}
+/*Our Cakes Hover */
+.box1 {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transition: 1s ease;
+}
+
+.box2 {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transition: 1s ease;
+}
+
+.our-cakes:hover .our-cakes-background {
+    opacity: 0.5;
+}
+
+.our-cakes:hover .box1,
+.our-cakes:hover .box2 {
+    opacity: 1;
+}
+
+.box-text {
+    font-family: Poiret One, sans-serif;
+    font-size: 23px;
+    color: white;
+    background-color: #b30000;
+    font-weight: bold;
+    padding: 13px;
+}
+/*-------*/
