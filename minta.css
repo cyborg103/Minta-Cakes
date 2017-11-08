@@ -1,9 +1,8 @@
-html,
 body {
     height: 100%;
     margin: 0;
 }
-
+/* Menu Navigation*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,11 +33,7 @@ li a:hover {
     background-color: #b30000;
     font-weight: bold;
 }
-
-.active {
-    background-color: #78184A;
-}
-
+/*---------------------------------------*/
 img {
     max-width: 100%;
     height: auto;
@@ -56,11 +51,12 @@ img {
     margin-right: 380px;
 }
 
-p {
+.our-story {
     font-family: Open Sans Condensed, sans-serif;
+    font-size: larger;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .our-cakes {
